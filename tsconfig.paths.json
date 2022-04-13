@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/commands/*": [
+          "src/commands/*"
+        ],
+        "@/functions/*": [
+          "src/functions/*"
+        ],
+        "@/jsons/*": [
+          "src/jsons/*"
+        ],
+        "@/locales/*": [
+          "src/locales/*"
+        ],
+        "@/models/*": [
+          "src/models/*"
+        ],
+        "@/utils/*": [
+          "src/utils/*"
+        ]
+      }
+    }
+  }

@@ -1,0 +1,51 @@
+{
+    "extends": "./tsconfig.paths.json",
+    "compilerOptions": {
+      "lib": [
+        "es6"
+      ],
+      "removeComments": true,
+      "moduleResolution": "node",
+      "module": "commonjs",
+      "target": "es6",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "allowJs": true,
+      "noEmitHelpers": true,
+      "importHelpers": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "isolatedModules": true,
+      // Strict Checks
+      "strict": true,
+      "alwaysStrict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictPropertyInitialization": true,
+      "strictFunctionTypes": true,
+      "noImplicitThis": true,
+      "strictBindCallApply": true,
+      "noPropertyAccessFromIndexSignature": true,
+      "noUncheckedIndexedAccess": true,
+      // Linter Checks
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "allowUnreachableCode": false,
+      "allowUnusedLabels": false,
+      // Base Strict Checks
+      "noImplicitUseStrict": false,
+      "suppressExcessPropertyErrors": false,
+      "suppressImplicitAnyIndexErrors": false,
+      "noStrictGenericChecks": false
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      ".serverless",
+      ".webpack"
+    ]
+  }

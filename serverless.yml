@@ -1,0 +1,33 @@
+service: recommendator-functions
+
+provider:
+  name: azure
+  type: consumption
+  runtime: nodejs12
+  stage: prod
+  resourceGroup: weur-dashboard
+  region: West Europe
+  tags:
+    env: ${self:provider.stage}
+    service: ${self:service}
+    version: 1.0.0
+
+plugins:
+  - serverless-azure-functions
+  - serverless-webpack
+
+custom:
+  webpack:
+    packager: yarn
+    includeModules: true
+
+functions:
+  telegram-webhook:
+    handler: src/functions/telegram/handler.webhook
+    events:
+      - http: true
+        x-azure-settings:
+          methods:
+            - post
+          authLevel: anonymous
+          route: telegram/{token}/webhook

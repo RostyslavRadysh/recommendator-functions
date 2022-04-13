@@ -1,0 +1,26 @@
+{
+    "name": "recommendator-functions",
+    "version": "1.0.0",
+    "private": true,
+    "license": "Apache-2.0",
+    "scripts": {
+        "package": "serverless package",
+        "deploy": "serverless deploy"
+    },
+    "dependencies": {
+        "messaging-api-telegram": "^1.0.6",
+        "serverless": "^2.54.0",
+        "serverless-azure-functions": "^2.1.0",
+        "serverless-webpack": "^5.5.1",
+        "tslib": "^2.3.1"
+    },
+    "devDependencies": {
+        "@azure/functions": "^1.2.3",
+        "@types/ioredis": "^4.26.7",
+        "ts-loader": "^9.2.5",
+        "tsconfig-paths-webpack-plugin": "^3.5.1",
+        "typescript": "^4.3.5",
+        "webpack": "^5.49.0",
+        "webpack-node-externals": "^3.0.0"
+    }
+}
