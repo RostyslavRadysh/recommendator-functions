@@ -11,7 +11,10 @@ class HelloCommand implements Command {
 
     async validate(body: any): Promise<boolean> {
         const request = body as TelegramMessage
-        return request ? true : false    
+        if (!request.message?.text) return false
+        if (!this.regex.test(request.message.text)) return false
+        if (!request.message.from?.id) return false
+        return true 
     }
 
     async execute(body: any): Promise<void> {

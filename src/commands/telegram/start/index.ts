@@ -5,13 +5,16 @@ import Command from '@/utils/command'
 class StartCommand implements Command {
     regex: RegExp
 
-    constructor(private client: TelegramClient,) {
+    constructor(private client: TelegramClient) {
         this.regex = new RegExp('/start')
     }
 
     async validate(body: any): Promise<boolean> {
         const request = body as TelegramMessage
-        return request ? true : false
+        if (!request.message?.text) return false
+        if (!this.regex.test(request.message.text)) return false
+        if (!request.message.from?.id) return false
+        return true
     }
 
     async execute(body: any): Promise<void> {
@@ -19,7 +22,7 @@ class StartCommand implements Command {
         const key = (body as TelegramMessage).message?.from?.id
         if (!key) throw Error('The key doesn\'t exists!')
         // Send a message
-        const message = "Welcome to the telegram chat!"
+        const message = "<b>Welcome to the telegram chat!</b>"
         await this.client.sendMessage(key, message, { parseMode: TelegramTypes.ParseMode.HTML })
     }
 }
