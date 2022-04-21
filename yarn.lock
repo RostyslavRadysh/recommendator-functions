@@ -4615,7 +4615,7 @@ messaging-api-common@^1.0.4:
     snake-case "^3.0.3"
     url-join "^4.0.1"
 
-messaging-api-telegram@^1.0.6:
+messaging-api-telegram@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/messaging-api-telegram/-/messaging-api-telegram-1.1.0.tgz#ad030067b115243845bfaa2d37ae430461471e8d"
   integrity sha512-HipK6m4N7KDpT6EW2USMDYckXPSdyAYOETfmrBTCCSLQOeIy/J6z/z3fQ5JF4jKideMhkRpgyhH2roPqTDWE7A==
