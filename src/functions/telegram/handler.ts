@@ -2,6 +2,7 @@ import { AzureFunction, Context } from '@azure/functions'
 import { TelegramClient } from 'messaging-api-telegram'
 import StartCommand from '@/commands/telegram/start'
 import HelloCommand from '@/commands/telegram/hello'
+import FilmsCommand from '@/commands/telegram/films'
 import GamesCommand from '@/commands/telegram/games'
 
 export const webhook: AzureFunction = async function (context: Context): Promise<void> {
@@ -15,6 +16,7 @@ export const webhook: AzureFunction = async function (context: Context): Promise
         const commands = [
             new StartCommand(client),
             new HelloCommand(client),
+            new FilmsCommand(client),
             new GamesCommand(client)
         ]
         for await (const command of commands) {

@@ -2,11 +2,11 @@ import { TelegramClient, TelegramTypes } from 'messaging-api-telegram'
 import TelegramMessage from '@/models/telegramMessage'
 import Command from '@/utils/command'
 
-class StartCommand implements Command {
+class FilmsCommand implements Command {
     regex: RegExp
 
-    constructor(private client: TelegramClient) {
-        this.regex = new RegExp('/start')
+    constructor(private client: TelegramClient,) {
+        this.regex = new RegExp('/films')
     }
 
     async validate(body: any): Promise<boolean> {
@@ -14,7 +14,7 @@ class StartCommand implements Command {
         if (!request.message?.text) return false
         if (!this.regex.test(request.message.text)) return false
         if (!request.message.from?.id) return false
-        return true
+        return true 
     }
 
     async execute(body: any): Promise<void> {
@@ -22,15 +22,18 @@ class StartCommand implements Command {
         const key = (body as TelegramMessage).message?.from?.id
         if (!key) throw Error('The key doesn\'t exists!')
         // Send a message
-        const message = "<b>Hello! Welcome to our chat. Please choose the activity: </b>"
+        const message = 'Choose your favourite film genre:'
         const replyMarkup: TelegramTypes.ReplyKeyboardMarkup = {
             keyboard: [
-                [{ text: 'Videogames' }, { text: 'Films' }]
+                [{ text: 'Comedy' }, { text: 'Sci-fi' }],
+                [{ text: 'Horror' }, { text: 'Action' }],
+                [{ text: 'Drama' }, { text: 'Mystery' }],
+                [{ text: 'Thriller' }, { text: 'Other' }]
             ],
             resizeKeyboard: true
         }
-        await this.client.sendMessage(key, message, { parseMode: TelegramTypes.ParseMode.HTML })
+        await this.client.sendMessage(key, message, { parseMode: TelegramTypes.ParseMode.HTML, replyMarkup })
     }
 }
 
-export default StartCommand
+export default FilmsCommand
