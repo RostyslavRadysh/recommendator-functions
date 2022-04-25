@@ -1,0 +1,95 @@
+
+
+"games" : [ 
+{
+  "id": 1,
+  "name": "NBA 2k22",
+  "type": 7,
+  "description": "NBA 2K22 is a 2021 basketball simulation video game developed by Visual Concepts and published by 2K Sports, based on the National Basketball Association."
+}
+
+{
+  "id": 2,
+  "name": "FIFA 22",
+  "type": 7,
+  "description": "FIFA 22 is a football simulation video game published by Electronic Arts."
+}
+
+{
+  "id": 3,
+  "name": "PUBG",
+  "type": 0,
+  "description": "PUBG is a player versus player shooter game in which up 
+  to one hundred players fight in a battle royale, a type of large-
+  scale last man standing deathmatch where players fight to remain the last alive. 
+  Players can choose to enter the match solo, duo, or with a small team of up to four people."
+}
+
+{
+  "id": 4,
+  "name": "CS:GO",
+  "type": 0,
+  "description": "The game pits two teams, Terrorists and Counter-Terrorists, against each other
+   in different objective-based game modes. The most common game modes involve the
+   Terrorists planting a bomb while Counter-Terrorists attempt to stop them, or Counter-
+   Terrorists attempting to rescue hostages that the Terrorists have captured."
+}
+
+{
+  "id": 5,
+  "name": "Rust",
+  "type": 1,
+  "description": "The only aim in Rust is to survive. 
+  Everything wants you to die - the island's wildlife and other inhabitants, the environment, other survivors. 
+  Do whatever it takes to last another night."
+}
+
+{
+  "id": 6,
+  "name": "The Long Dark",
+  "type": 2,
+  "description": "The Long Dark is a first-person survival video game developed
+  and published by Hinterland Studios. The player assumes the 
+  role of a crash-landed bush pilot Will Mackenzie who must survive 
+  the frigid Canadian wilderness after a geomagnetic storm."
+}
+
+{
+  "id": 7,
+  "name": "Elden Ring",
+  "type": 3,
+  "description": "Elden Ring is an action role-playing game played in a third-person perspective with 
+  gameplay focusing on combat and exploration; it features elements similar to those 
+  found in other games developed by FromSoftware, such as the Souls series, Bloodborne, 
+  and Sekiro: Shadows Die Twice."
+}
+
+{
+  "id": 8,
+  "name": "Farming simulator 19",
+  "type": 4,
+  "description": "The ultimate farming simulation returns with a complete graphics overhaul and the most 
+  complete farming experience ever! Become a modern farmer and develop your farm on 
+  two huge American and European environments, filled with exciting new farming 
+  activities, crops to harvest and animals to tend to."
+}
+
+{
+  "id": 9,
+  "name": "Civilization VI",
+  "type": 5,
+  "description": "Civilization VI is a turn-based strategy video game in which one or more 
+  players compete alongside computer-controlled AI opponents to grow 
+  their individual civilization from a small tribe to control of the entire planet 
+  across several periods of development."
+}
+
+{
+  "id": 10,
+  "name": "War Thunder",
+  "type": 6,
+  "description": "War Thunder is the most comprehensive free-to-play MMO military game 
+  dedicated to aviation, armoured vehicles, and naval craft from World War II and the Cold War."
+}
+]
+
