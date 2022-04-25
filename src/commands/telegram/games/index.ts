@@ -26,7 +26,7 @@ class GamesCommand implements Command {
         if (!key)
             throw Error('The key doesn\'t exists!');
         // Send a message
-        const message = 'Choose what game genres you like!';
+        const message = 'Choose what game\'s genre you like';
         const replyMarkup: TelegramTypes.ReplyKeyboardMarkup = {
             keyboard: [
                 [{ text: 'Action' }, { text: 'Action-Adventure' }],
