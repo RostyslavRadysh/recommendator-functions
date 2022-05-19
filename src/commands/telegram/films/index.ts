@@ -22,11 +22,11 @@ class FilmsCommand implements Command {
         const key = (body as TelegramMessage).message?.from?.id
         if (!key) throw Error('The key doesn\'t exists!')
         // Send a message
-        const message = 'Choose your favourite film genre:'
+        const message = "Choose what film's genre you like"
         const replyMarkup: TelegramTypes.ReplyKeyboardMarkup = {
             keyboard: [
                 [{ text: 'Comedy' }, { text: 'Sci-fi' }],
-                [{ text: 'Horror' }, { text: 'Action' }],
+                [{ text: 'Horror' }, { text: 'Action film' }],
                 [{ text: 'Drama' }, { text: 'Mystery' }],
                 [{ text: 'Thriller' }, { text: 'Other' }]
             ],

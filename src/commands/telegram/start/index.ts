@@ -22,10 +22,10 @@ class StartCommand implements Command {
         const key = (body as TelegramMessage).message?.from?.id
         if (!key) throw Error('The key doesn\'t exists!')
         // Send a message
-        const message = "<b>Hello! Welcome to our chat. Please choose the activity: </b>"
+        const message = "<b>Hello! Welcome to our chat. Please choose the activity 🙃</b>"
         const replyMarkup: TelegramTypes.ReplyKeyboardMarkup = {
             keyboard: [
-                [{ text: 'Videogames' }, { text: 'Films' }]
+                [{ text: 'Games' }, { text: 'Films' }]
             ],
             resizeKeyboard: true
         }
