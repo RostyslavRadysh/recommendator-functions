@@ -1,0 +1,171 @@
+
+[
+  {
+  "id": 1,
+  "name": "NBA 2k22",
+  "type": 7,
+  "description": "NBA 2K22 is a 2021 basketball simulation video game developed by Visual Concepts and published by 2K Sports, based on the National Basketball Association."
+  },
+
+  {
+  "id": 2,
+  "name": "FIFA 22",
+  "type": 7,
+  "description": "FIFA 22 is a football simulation video game published by Electronic Arts."
+  },
+
+  {
+  "id": 3,
+  "name": "PUBG",
+  "type": 0,
+  "description": "PUBG is a player versus player shooter game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive. Players can choose to enter the match solo, duo, or with a small team of up to four people."
+  },
+
+  {
+  "id": 4,
+  "name": "CS:GO",
+  "type": 0,
+  "description": "The game pits two teams, Terrorists and Counter-Terrorists, against each other in different objective-based game modes. The most common game modes involve theTerrorists planting a bomb while Counter-Terrorists attempt to stop them, or Counter-Terrorists attempting to rescue hostages that the Terrorists have captured."
+  },
+
+  {
+  "id": 5,
+  "name": "Rust",
+  "type": 1,
+  "description": "The only aim in Rust is to survive. Everything wants you to die - the island's wildlife and other inhabitants, the environment, other survivors. Do whatever it takes to last another night."
+  },
+
+  {
+  "id": 6,
+  "name": "The Long Dark",
+  "type": 2,
+  "description": "The Long Dark is a first-person survival video game developed and published by Hinterland Studios. The player assumes the role of a crash-landed bush pilot Will Mackenzie who must survive the frigid Canadian wilderness after a geomagnetic storm."
+  },
+
+  {
+  "id": 7,
+  "name": "Elden Ring",
+  "type": 3,
+  "description": "Elden Ring is an action role-playing game played in a third-person perspective with gameplay focusing on combat and exploration; it features elements similar to those found in other games developed by FromSoftware, such as the Souls series, Bloodborne, and Sekiro: Shadows Die Twice."
+  },
+
+  {
+  "id": 8,
+  "name": "Farming simulator 19",
+  "type": 4,
+  "description": "The ultimate farming simulation returns with a complete graphics overhaul and the most complete farming experience ever! Become a modern farmer and develop your farm on two huge American and European environments, filled with exciting new farming activities, crops to harvest and animals to tend to."
+  },
+
+  {
+  "id": 9,
+  "name": "Civilization VI",
+  "type": 5,
+  "description": "Civilization VI is a turn-based strategy video game in which one or more players compete alongside computer-controlled AI opponents to grow their individual civilization from a small tribe to control of the entire planet across several periods of development."
+  },
+
+  {
+  "id": 10,
+  "name": "War Thunder",
+  "type": 6,
+  "description": "War Thunder is the most comprehensive free-to-play MMO military game dedicated to aviation, armoured vehicles, and naval craft from World War II and the Cold War."
+  },
+
+  {
+  "id": 11,
+  "name": "NHL 22",
+  "type": 7,
+  "description": "NHL 22 is an ice hockey simulation video game developed by EA Vancouver and published by EA Sports"
+  },
+
+  {
+  "id": 12,
+  "name": "Call of Duty : Warzone",
+  "type": 0,
+  "description": "Warzone allows online multiplayer combat among 150 players, although some limited-time game modes support 200 players. Other modes include Plunder, Rebirth: Resurgence, Buy Back, Payload and Clash. The game features both cross-platform play and cross-platform progression between three games."
+  },
+
+  {
+  "id": 13,
+  "name": "Days Gone",
+  "type": 1,
+  "description": "Days Gone is a massive open-world action-adventure game set in a harsh wilderness two years after a devastating global pandemic. Play as Deacon St. John, a drifter and bounty hunter who rides the broken road, fighting to survive while searching for a reason to live."
+  },
+
+  {
+  "id": 14,
+  "name": "Grand Theft Auto V",
+  "type": 1,
+  "description": "Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world."
+  },
+
+  {
+  "id": 15,
+  "name": "The Walking Dead",
+  "type": 2,
+  "description": "The game puts you inside the apocalyptic fall of Los Angeles from AMC's hit series Fear the Walking Dead. Relentlessly pursued by the undead, you flee across familiar LA landscapes as the city is overrun; an abandoned church, a high school, the local sports arena. Shoot too much and you'll slow down."
+  },
+
+  {
+  "id": 16,
+  "name": "Life is strange",
+  "type": 2,
+  "description": "Synopsis. Life Is Strange is a five-part episodic game that sets out to revolutionize story-based choice and consequence games by allowing the player to rewind time and affect the past, present, and future. You are Max, a photography senior who saves her old friend Chloe by discovering she can rewind time."
+  },
+
+  {
+  "id": 17,
+  "name": "Undertale",
+  "type": 3,
+  "description": "Undertale is a role-playing game that uses a top-down perspective. In the game, the player controls a child and completes objectives in order to progress through the story. Players explore an underground world filled with towns and caves, and are required to solve numerous puzzles on their journey."
+  },
+
+  {
+    "id": 18,
+    "name": "Fallout",
+    "type": 3,
+    "description": "Fallout is a 1997 role-playing video game developed and published by Interplay Productions. The game features a post-apocalyptic and chiefly retro-futuristic setting, taking place in the mid-22nd century decades after a global nuclear war."
+  },
+
+  {
+    "id": 19,
+    "name": "Kerbal Space Program",
+    "type": 4,
+    "description": "Kerbal Space Program is a multi-genre game where the player creates his or her own space program. In KSP, you must build a space-worthy craft, capable of flying its crew out into space, without killing them. At your disposal is a large collection of parts, which must be assembled to create a functional ship."
+  },
+
+  {
+    "id": 20,
+    "name": "Microsoft flight simulator",
+    "type": 4,
+    "description": "Microsoft Flight Simulator (2020), often abbreviated as FS2020 or MSFS, is a modern flight simulator developed by Asobo Studio and published by Xbox Game Studios."
+  },
+
+  {
+    "id": 21,
+    "name": "Starcraft II",
+    "type": 5,
+    "description": "StarCraft II is a sequel to the PC based Real Time Strategy game StarCraft: Brood War made by Blizzard Entertainment. It is split into three installments: the base game with the subtitle Wings of Liberty, and two expansion packs, Heart of the Swarm and Legacy of the Void."
+  },
+
+  {
+    "id": 22,
+    "name": "XCOM 2",
+    "type": 5,
+    "description": "XCOM, a military organization trying to fight off an alien invasion, has lost the war and is now a resistance force against the occupation of Earth and the established totalitarian regime and military dictatorship."
+  },
+
+  {
+    "id": 23,
+    "name": "Lost ARK",
+    "type": 6,
+    "description": "Lost Ark is a 3D fantasy MMORPG with action RPG style combat and a huge world to explore. Set sail on your own ship to discover new regions and battle powerful bosses with a raid party. Lost Ark offers a feature-rich gaming experience combined with stunning visuals and skill effects."
+  },
+
+  {
+    "id": 24,
+    "name": "Skyforge",
+    "type": 6,
+    "description": "Set on the planet Aelion, Skyforge fuses elements of Science fiction and fantasy in its visuals and storytelling, and sees players exploring the world as an immortal who must strive to become a god and defend the planet from alien invasion from other worlds."
+  }
+
+]
