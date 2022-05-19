@@ -6,7 +6,7 @@ class FilmsCommand implements Command {
     regex: RegExp
 
     constructor(private client: TelegramClient,) {
-        this.regex = new RegExp('/films')
+        this.regex = new RegExp('?/films')
     }
 
     async validate(body: any): Promise<boolean> {
