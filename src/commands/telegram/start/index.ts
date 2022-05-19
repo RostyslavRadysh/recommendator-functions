@@ -17,6 +17,8 @@ class StartCommand implements Command {
         return true
     }
 
+
+
     async execute(body: any): Promise<void> {
         // Get the key
         const key = (body as TelegramMessage).message?.from?.id
