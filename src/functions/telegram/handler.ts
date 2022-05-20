@@ -4,6 +4,7 @@ import StartCommand from '@/commands/telegram/start'
 import HelloCommand from '@/commands/telegram/hello'
 import FilmsCommand from '@/commands/telegram/films'
 import GamesCommand from '@/commands/telegram/games'
+import GetFilmCommand from '@/commands/telegram/getfilm'
 
 export const webhook: AzureFunction = async function (context: Context): Promise<void> {
     // Get Bindings
