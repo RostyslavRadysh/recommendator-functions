@@ -1,7 +1,7 @@
 interface Film { 
     id: string 
     name: string 
-    type: number
+    type: string
     description: string 
 } 
 

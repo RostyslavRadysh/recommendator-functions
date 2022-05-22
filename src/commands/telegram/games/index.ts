@@ -6,7 +6,7 @@ class GamesCommand implements Command {
     regex: RegExp;
 
     constructor(private client: TelegramClient) {
-        this.regex = new RegExp('(\/games|Games)');
+        this.regex = new RegExp('(^\/games$|^Games$)');
     }
 
     async validate(body: any): Promise<boolean> {
@@ -23,7 +23,7 @@ class GamesCommand implements Command {
         if (!key)
             throw Error('The key doesn\'t exists!');
         // Send a message
-        const message = 'Choose what game\'s genre you like';
+        const message = 'Choose what game\'s genre you like ❤️';
         const replyMarkup: TelegramTypes.ReplyKeyboardMarkup = {
             keyboard: [
                 [{ text: 'Action' }, { text: 'Action-Adventure' }],

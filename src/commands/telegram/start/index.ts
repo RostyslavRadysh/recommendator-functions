@@ -6,7 +6,7 @@ class StartCommand implements Command {
     regex: RegExp
 
     constructor(private client: TelegramClient) {
-        this.regex = new RegExp('/start')
+        this.regex = new RegExp('^\/start$')
     }
 
     async validate(body: any): Promise<boolean> {
@@ -22,7 +22,7 @@ class StartCommand implements Command {
         const key = (body as TelegramMessage).message?.from?.id
         if (!key) throw Error('The key doesn\'t exists!')
         // Send a message
-        const message = "<b>Hello! Welcome to our chat. Please choose the activity 🙃</b>"
+        const message = 'Hello! Welcome to our chat. Please choose the activity 🙃'
         const replyMarkup: TelegramTypes.ReplyKeyboardMarkup = {
             keyboard: [
                 [{ text: 'Games' }, { text: 'Films' }]
