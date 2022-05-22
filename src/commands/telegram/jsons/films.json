@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Going in Style",
+        "type": 0,
+        "description": "Desperate to pay the bills and come through for their loved ones, three lifelong pals risk it all by embarking on a daring bid to knock off the very bank that absconded with their money."
+    },
+    {
+        "id": 2,
+        "name": "Senior Year",
+        "type": 0,
+        "description": "A cheerleading stunt gone wrong landed her in a 20-year coma. Now she's 37, newly awake and ready to live out her high school dream: becoming prom queen."
+    },
+    {
+        "id": 3,
+        "name": "The Edge of Seventeen",
+        "type": 0,
+        "description": "Everyone knows that growing up is hard, and life is no easier for high school junior Nadine. All at once, she feels more alone than ever, until an unexpected friendship with a thoughtful teen gives her a glimmer of hope that things just might not be so terrible. "
+    },
+    {
+        "id": 4,
+        "name": "Adam Project",
+        "type": 1,
+        "description": "After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self for a mission to save the future."
+    },
+    {
+        "id": 5,
+        "name": "The Martian",
+        "type": 1,
+        "description": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive and can survive until a potential rescue."
+    },
+    {
+        "id": 6,
+        "name": "Infinite",
+        "type": 1,
+        "description": "A man discovers that his hallucinations are actually visions from past lives."
+    },
+    {
+        "id": 7,
+        "name": "Gravity",
+        "type": 1,
+        "description": "Two astronauts work together to survive after an accident leaves them stranded in space."
+    },
+    {
+        "id": 8,
+        "name": "The Cellar",
+        "type": 2,
+        "description": "Keira Woods' daughter mysteriously vanishes in the cellar of their new house. She soon discovers there is an ancient and powerful entity controlling their home that she will have to face or risk losing her family's souls forever."
+    },
+    {
+        "id": 9,
+        "name": "Host",
+        "type": 2,
+        "description": "Six friends hire a medium to hold a seance via Zoom during lockdown, but they get far more than they bargained for as things quickly go wrong."
+    },
+    {
+        "id": 10,
+        "name": "The Cabin in the Woods",
+        "type": 2,
+        "description": "Five friends go for a break at a remote cabin, where they get more than they bargained for, discovering the truth behind the cabin in the woods."
+    },
+    {
+        "id": 11,
+        "name": "The Spy Who Dumped Me",
+        "type": 3,
+        "description": "Best friends Audrey and Morgan unwittingly become entangled in an international conspiracy when one of them discovers that the boyfriend who dumped her was actually a spy."
+    },
+    {
+        "id": 12,
+        "name": "The Northman",
+        "type": 3,
+        "description": "From visionary director Robert Eggers comes The Northman, an action-filled epic that follows a young Viking prince on his quest to avenge his father's murder."
+    },
+    {
+        "id": 13,
+        "name": "The Gentlemen",
+        "type": 3,
+        "description": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him."
+    },
+    {
+        "id": 14,
+        "name": "The Power of the Dog",
+        "type": 4,
+        "description": "Charismatic rancher Phil Burbank inspires fear and awe in those around him. When his brother brings home a new wife and her son, Phil torments them until he finds himself exposed to the possibility of love."
+    },
+    {
+        "id": 15,
+        "name": " Fight Club",
+        "type": 4,
+        "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."
+    },
+    {
+        "id": 16,
+        "name": "The Intouchables ",
+        "type": 4,
+        "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
+    },
+    {
+        "id": 17,
+        "name": "Identity",
+        "type": 5,
+        "description": "Stranded at a desolate Nevada motel during a nasty rain storm, ten strangers become acquainted with each other when they realize that they're being killed off one by one."
+    },
+    {
+        "id": 18,
+        "name": "Exam",
+        "type": 5,
+        "description": "Eight candidates for a highly desirable corporate job are locked together in an exam room and given a final test with just one seemingly simple question. However, it doesn't take long for confusion to ensue and tensions to unravel."
+    },
+    {
+        "id": 19,
+        "name": "Shutter Island",
+        "type": 5,
+        "description": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane."
+    },
+    {
+        "id": 20,
+        "name": "Intrusion",
+        "type": 6,
+        "description": "A woman moves to a small town with her husband, but is rattled when she is targeted for a home invasion."
+    },
+    {
+        "id": 21,
+        "name": "I See You",
+        "type": 6,
+        "description": "Strange occurrences plague a small town detective and his family as he investigates the disappearance of a young boy."
+    },
+    {
+        "id": 22,
+        "name": "Flashback",
+        "type": 6,
+        "description": "After a chance encounter with a man forgotten from his youth, Fred literally and metaphorically journeys into his past."
+    },
+    {
+        "id": 23,
+        "name": "Weathering with You",
+        "type": 7,
+        "description": "A high-school boy who has run away to Tokyo befriends a girl who appears to be able to manipulate the weather."
+    },
+    {
+        "id": 24,
+        "name": "A Silent Voice: The Movie",
+        "type": 7,
+        "description": "A young man is ostracized by his classmates after he bullies a deaf girl to the point where she moves away. Years later, he sets off on a path for redemption."
+    },
+    {
+        "id": 25,
+        "name": "Spirited Away",
+        "type": 7,
+        "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+    }
+]
