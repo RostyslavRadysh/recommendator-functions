@@ -1,10 +1,10 @@
 import { AzureFunction, Context } from '@azure/functions'
 import { TelegramClient } from 'messaging-api-telegram'
 import StartCommand from '@/commands/telegram/start'
-import HelloCommand from '@/commands/telegram/hello'
 import FilmsCommand from '@/commands/telegram/films'
 import GamesCommand from '@/commands/telegram/games'
-import GetFilmCommand from '@/commands/telegram/getfilm'
+import GetFilmCommand from '@/commands/telegram/getFilm'
+import GetGameCommand from '@/commands/telegram/getGame'
 
 export const webhook: AzureFunction = async function (context: Context): Promise<void> {
     // Get Bindings
@@ -16,9 +16,10 @@ export const webhook: AzureFunction = async function (context: Context): Promise
         // Validate & execute the commands
         const commands = [
             new StartCommand(client),
-            new HelloCommand(client),
             new FilmsCommand(client),
-            new GamesCommand(client)
+            new GamesCommand(client),            
+            new GetFilmCommand(client),
+            new GetGameCommand(client)
         ]
         for await (const command of commands) {
             if (await command.validate(body)) await command.execute(body)

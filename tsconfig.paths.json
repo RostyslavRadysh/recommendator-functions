@@ -11,14 +11,8 @@
         "@/jsons/*": [
           "src/jsons/*"
         ],
-        "@/locales/*": [
-          "src/locales/*"
-        ],
         "@/models/*": [
           "src/models/*"
-        ],
-        "@/utils/*": [
-          "src/utils/*"
         ]
       }
     }

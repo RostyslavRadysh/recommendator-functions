@@ -1,6 +1,6 @@
 import { TelegramClient, TelegramTypes } from 'messaging-api-telegram'
 import TelegramMessage from '@/models/telegramMessage'
-import Command from '@/utils/command'
+import Command from '@/models/command'
 
 class StartCommand implements Command {
     regex: RegExp
@@ -16,8 +16,6 @@ class StartCommand implements Command {
         if (!request.message.from?.id) return false
         return true
     }
-
-
 
     async execute(body: any): Promise<void> {
         // Get the key

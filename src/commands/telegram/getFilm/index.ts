@@ -1,8 +1,8 @@
-import { TelegramClient, TelegramTypes } from 'messaging-api-telegram'
+import { TelegramClient } from 'messaging-api-telegram'
 import TelegramMessage from '@/models/telegramMessage'
-import Command from '@/utils/command'
-import Film from '@/models/films'
-
+import Command from '@/models/command'
+import Film from '@/models/film'
+import filmsJson from '@/jsons/films.json'
 
 class GetFilmCommand implements Command {
     regex: RegExp
@@ -20,15 +20,14 @@ class GetFilmCommand implements Command {
     }
 
     async execute(body: any): Promise<void> {
-        const filmsJson = require('@/jsons/films.json')
         const films = (Object.values(JSON.parse(JSON.stringify(filmsJson))) as Film[])
         var recommendedFilm = films[Math.floor(Math.random()*films.length)]
+        if(!recommendedFilm) throw Error('The object doesn\'t exists!')
         // Get the key
         const key = (body as TelegramMessage).message?.from?.id
         if (!key) throw Error('The key doesn\'t exists!')
         // Send a message
-        const message = recommendedFilm?.name + 'This is the film I recommend you to watch.' + recommendedFilm?.description
-
+        const message = recommendedFilm.name + 'This is the film I recommend you to watch.' + recommendedFilm.description
         await this.client.sendMessage(key, message)
     }
 }

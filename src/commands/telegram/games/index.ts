@@ -1,22 +1,19 @@
 import { TelegramClient, TelegramTypes } from 'messaging-api-telegram';
 import TelegramMessage from '@/models/telegramMessage';
-import Command from '@/utils/command';
+import Command from '@/models/command';
 
 class GamesCommand implements Command {
     regex: RegExp;
 
     constructor(private client: TelegramClient) {
-        this.regex = new RegExp('/games');
+        this.regex = new RegExp('(\/games|Games)');
     }
 
     async validate(body: any): Promise<boolean> {
         const request = body as TelegramMessage;
-        if (!request.message?.text)
-            return false;
-        if (!this.regex.test(request.message.text))
-            return false;
-        if (!request.message.from?.id)
-            return false;
+        if (!request.message?.text)  return false;
+        if (!this.regex.test(request.message.text)) return false;
+        if (!request.message.from?.id) return false;
         return true;
     }
 
